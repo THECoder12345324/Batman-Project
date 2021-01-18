@@ -12,7 +12,7 @@ class Drop {
     }
     update() {
         if (this.body.position.y > height) {
-            this.body.position.y = 0;
+            this.body.position.y = -10;
             this.body.position.x = random(0, width);
         }
     }
